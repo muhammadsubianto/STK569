@@ -1,0 +1,19 @@
+name: venv
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn 
+  - biopython
+  - seaborn
+  - imbalanced-learn
+  - category_encoders
+  - hyperopt
+  - pip
+  - pip:
+    - scprep
